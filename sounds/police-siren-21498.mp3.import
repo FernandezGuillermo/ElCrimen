@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/police-siren-21498.mp3-937d0ec495416ac35f3aaa1d4423eb30.mp3str"
+
+[deps]
+
+source_file="res://sounds/police-siren-21498.mp3"
+dest_files=[ "res://.import/police-siren-21498.mp3-937d0ec495416ac35f3aaa1d4423eb30.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

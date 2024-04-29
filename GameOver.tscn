@@ -1,0 +1,43 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://button_back.gd" type="Script" id=1]
+
+[sub_resource type="DynamicFontData" id=1]
+font_path = "res://fonts/Jersey25-Regular.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 100
+font_data = SubResource( 1 )
+
+[sub_resource type="DynamicFontData" id=3]
+font_path = "res://fonts/Jersey25-Regular.ttf"
+
+[sub_resource type="DynamicFont" id=4]
+size = 40
+font_data = SubResource( 3 )
+
+[node name="GameOver" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1027.0
+margin_bottom = 1022.0
+color = Color( 0.00392157, 0, 0, 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 197.0
+margin_top = 356.0
+margin_right = 822.0
+margin_bottom = 565.0
+custom_fonts/font = SubResource( 2 )
+text = "Perdiste 
+"
+align = 1
+
+[node name="button_back" type="Button" parent="."]
+margin_left = 342.0
+margin_top = 485.0
+margin_right = 668.0
+margin_bottom = 581.0
+custom_fonts/font = SubResource( 4 )
+text = "Volver a intentarlo"
+script = ExtResource( 1 )

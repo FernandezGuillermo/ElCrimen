@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/citySound.mp3-b6c78b9e718715497537bf7c6e2af287.mp3str"
+
+[deps]
+
+source_file="res://sounds/citySound.mp3"
+dest_files=[ "res://.import/citySound.mp3-b6c78b9e718715497537bf7c6e2af287.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
